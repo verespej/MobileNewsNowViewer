@@ -1,0 +1,20 @@
+{
+  "name": "MobileNewsNowViewer",
+  "version": "0.0.0",
+  "homepage": "https://github.com/hverespej/MobileNewsNowViewer",
+  "authors": [
+    "havocy28 <brian.hur@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.1",
+    "jquery": "~2.0.3"
+  }
+}
