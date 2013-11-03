@@ -15,8 +15,50 @@
     <link href="css/font-awesome-ie7.css" rel="stylesheet">
     <!-- MobileNewsNow theme -->
     <link href="css/boot-business.css" rel="stylesheet">
+
+    <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script> -->
+      <script type="text/javascript">
+            function GetMap()
+      {  
+               var map = null;
+               var mapOptions = {
+                  credentials: "AnqYX-naz_bVzPIDo3wZmRUfzAdvWPj7x40sxdRYVRKJvXW9pOXmrpQMhd5nph4C",
+                  center: new Microsoft.Maps.Location(47.6, -122.332),
+                  mapTypeId: Microsoft.Maps.MapTypeId.road,
+                  zoom: 12,
+                  showScalebar: false,
+                  disableBirdseye: true
+               }
+               var map = new Microsoft.Maps.Map(document.getElementById("myMap"), mapOptions);
+
+               // Retrieve the location of the map center           
+
+               var c1 = map.getCenter();
+               c1.latitude = 47.630;
+               c1.longitude = -122.312;
+               var c2 = map.getCenter();
+               c2.latitude = 47.614;
+               c2.longitude = -122.361;
+               var c3 = map.getCenter();
+               c3.latitude = 47.618;
+               c3.longitude = -122.334;
+               
+               // Add a pin to the center of the map
+               var pin = new Microsoft.Maps.Pushpin(c1, {draggable: false}); 
+               var pin2 = new Microsoft.Maps.Pushpin(c2, {draggable: false}); 
+               var pin3 = new Microsoft.Maps.Pushpin(c3, {draggable: false});
+
+               // Add a handler to the pushpin drag
+               //Microsoft.Maps.Events.addHandler(pin, 'mouseup', DisplayLoc);
+
+               map.entities.push(pin);
+               map.entities.push(pin2);
+               map.entities.push(pin3);
+            }
+      </script>
   </head>
-  <body>
+  <body onload="GetMap();">
     <header>
       <!-- Start: Navigation wrapper -->
       <div class="navbar navbar-fixed-top">
@@ -107,8 +149,11 @@
           </div>
         </div>
       <!-- End: PRODUCT LIST -->
-    <div class="map">
-<iframe height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=&amp;aq=&amp;sll=47.606163,-122.332077&amp;sspn=0.281937,0.676346&amp;t=m&amp;ie=UTF8&amp;ll=47.614033,-122.286072&amp;spn=0.281894,0.676346&amp;z=11&amp;output=embed&amp;q=47.606163,-122.332077&amp;q=47.606163,-122.332080"></iframe></div>
+      <div  class="map" id="myMap" style="position:relative; height:400px;"></div>
+
+
+    <!-- <div class="map">
+<iframe height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=&amp;aq=&amp;sll=47.606163,-122.332077&amp;sspn=0.281937,0.676346&amp;t=m&amp;ie=UTF8&amp;ll=47.614033,-122.286072&amp;spn=0.281894,0.676346&amp;z=11&amp;output=embed&amp;q=47.606163,-122.332077&amp;q=47.606163,-122.332080"></iframe></div> -->
 <!-- <br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=&amp;aq=&amp;sll=47.606163,-122.332077&amp;sspn=0.281937,0.676346&amp;t=m&amp;ie=UTF8&amp;ll=47.614033,-122.286072&amp;spn=0.281894,0.676346&amp;z=11" style="color:#0000FF;text-align:left">View Larger Map</a></small> -->
     </div>
     <div class="center"><a style="font-size: 30px;" class="center btn btn-primary btn-large" href="/client.html">Share your story!</a></div>
