@@ -75,40 +75,37 @@
           <div class="row-fluid">
             <ul class="thumbnails">
               <li class="span4">
-		<div class="thumbnail">
-                  <iframe width="360" height="200" src="//www.youtube.com/embed/9j7o8ixbrLo?w=360&h=200" frameborder="0" allowfullscreen></iframe>
+                <iframe width="360" height="200" src="//www.youtube.com/embed/9j7o8ixbrLo?w=360&h=200" frameborder="0" allowfullscreen></iframe>
                   <div class="caption">
                     <h3>Cat stuck in tree</h3>
-		  </div>
                     <!-- <p> -->
                     <!--   Few attractive words about your product.Few attractive words about your product. -->
                     <!--   Few attractive words about your product.Few attractive words about your product. -->
                     <!-- </p> -->
                   </div>         
-                <!-- </div> -->
+                </div>
               </li>
               <li class="span4">
                 <div class="thumbnail">
-		  <iframe width="360" height="200" src="//www.youtube.com/embed/m8LwKrjQqfc?w=360&w=200" frameborder="0" allowfullscreen></iframe>
+                  <img src="img/placeholder-360x200.jpg" alt="product name">
                   <div class="caption">
-                    <h3>Divers fight off shark</h3>
+                    <h3>Man pees in bush</h3>
                   </div>
                 </div>
               </li>
               <li class="span4">
-		<div class="thumbnail">
-		<iframe width="360" height="200" src="//www.youtube.com/embed/ewmXQEZ4CCA?w=360&w=200" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="//www.youtube.com/embed/ewmXQEZ4CCA" frameborder="0" allowfullscreen></iframe>
                   <div class="caption">
                     <h3>Free starbucks</h3>
                   </div>
-                </div>
+                
               </li>
             </ul>
           </div>
         </div>
       <!-- End: PRODUCT LIST -->
     <div class="map">
-<iframe height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=&amp;aq=&amp;sll=47.606163,-122.332077&amp;sspn=0.281937,0.676346&amp;t=m&amp;ie=UTF8&amp;ll=47.614033,-122.286072&amp;spn=0.281894,0.676346&amp;z=11&amp;output=embed&amp;q=47.606163,-122.332077&amp;q=47.606163,-122.332080"></iframe></div>
+<iframe height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=&amp;aq=&amp;sll=47.606163,-122.332077&amp;sspn=0.281937,0.676346&amp;t=m&amp;ie=UTF8&amp;ll=47.614033,-122.286072&amp;spn=0.281894,0.676346&amp;z=11&amp;output=embed"></iframe></div>
 <!-- <br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=&amp;aq=&amp;sll=47.606163,-122.332077&amp;sspn=0.281937,0.676346&amp;t=m&amp;ie=UTF8&amp;ll=47.614033,-122.286072&amp;spn=0.281894,0.676346&amp;z=11" style="color:#0000FF;text-align:left">View Larger Map</a></small> -->
     </div>
 
