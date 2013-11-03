@@ -12,29 +12,6 @@
  */
 
 /* Start : Override Bootstrap navigation */
-/* my stuff */
-.map iframe {
-position: relative;
-z-index: 100;
-width: 100%;
-margin-bottom: 10px;
-padding-bottom: 0px !important;
-}
-.thumbnail iframe {
-  width: 100%;
-}
-body {
-background: url('../img/content.png');
-padding: 0px;
-}
-.thumbnail { border: none;}
-.navbar .container{ padding-left: 20px; padding-right: 20px;}
-.thumbnail .caption { margin-top: -25px;}
-/* end my stuff */
-
-
-
-
 .navbar-inner, footer {
   border: none;
   padding: 15px 0;
@@ -106,7 +83,8 @@ padding: 0px;
 
 /* Start: Bootbusiness specific CSS */
 .content {
-  padding: 30px 0;  
+  padding: 30px 0;
+  background: url('../img/content.png');
 }
 .thumbnail img {
   width: 100%;
@@ -162,10 +140,6 @@ padding: 0px;
 .center-align {
   text-align: center;
 }
-.center { text-align: center; margin-left: auto; margin-right: auto;}
-
-
-
 .product-snap {
   display: inline;
 }
@@ -283,7 +257,6 @@ padding: 0px;
 footer {
   color: white;
   padding-top: 20px;
-padding-left: 20px; padding-right: 20px;
 }
 .quick-links {
   list-style: none;

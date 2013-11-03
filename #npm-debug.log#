@@ -1,0 +1,181 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/home/adrian/.node/bin/npm', 'install', 'grunt' ]
+2 info using npm@1.1.68
+3 info using node@v0.10.21
+4 verbose read json /home/adrian/hackathons/mobilenewsnow/MobileNewsNowViewer/package.json
+5 warn package.json MobileNewsNowViewer@0.0.0 No README.md file found!
+6 verbose from cache /home/adrian/hackathons/mobilenewsnow/MobileNewsNowViewer/package.json
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'grunt', null ]
+9 silly cache add name=undefined spec="grunt" args=["grunt",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+n10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'grunt',
+10 verbose parsed url   path: 'grunt',
+10 verbose parsed url   href: 'grunt' }
+11 silly lockFile 20ff3fd8-grunt grunt
+12 verbose lock grunt /home/adrian/.npm/20ff3fd8-grunt.lock
+13 silly lockFile 20ff3fd8-grunt grunt
+14 verbose addNamed [ 'grunt', '' ]
+15 verbose addNamed [ null, '' ]
+16 silly lockFile 55f1ff24-grunt grunt@
+17 verbose lock grunt@ /home/adrian/.npm/55f1ff24-grunt.lock
+18 silly addNameRange { name: 'grunt', range: '', hasData: false }
+19 verbose url raw grunt
+20 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+21 verbose url resolved https://registry.npmjs.org/grunt
+22 info trying registry request attempt 1 at 14:09:59
+23 verbose etag "4N29LMTAA1GT2U8E41HHQIGTO"
+24 http GET https://registry.npmjs.org/grunt
+25 http 304 https://registry.npmjs.org/grunt
+26 silly registry.get cb [ 304,
+26 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+26 silly registry.get     etag: '"4N29LMTAA1GT2U8E41HHQIGTO"',
+26 silly registry.get     date: 'Sat, 02 Nov 2013 21:10:00 GMT',
+26 silly registry.get     'content-length': '0' } ]
+27 verbose etag grunt from cache
+28 silly addNameRange number 2 { name: 'grunt', range: '', hasData: true }
+29 silly addNameRange versions [ 'grunt',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.2.4',
+29 silly addNameRange     '0.2.5',
+29 silly addNameRange     '0.2.6',
+29 silly addNameRange     '0.2.7',
+29 silly addNameRange     '0.2.8',
+29 silly addNameRange     '0.2.9',
+29 silly addNameRange     '0.2.10',
+29 silly addNameRange     '0.2.11',
+29 silly addNameRange     '0.2.12',
+29 silly addNameRange     '0.2.13',
+29 silly addNameRange     '0.2.14',
+29 silly addNameRange     '0.2.15',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.3.2',
+29 silly addNameRange     '0.3.3',
+29 silly addNameRange     '0.3.4',
+29 silly addNameRange     '0.3.5',
+29 silly addNameRange     '0.3.6',
+29 silly addNameRange     '0.3.7',
+29 silly addNameRange     '0.3.8',
+29 silly addNameRange     '0.3.9',
+29 silly addNameRange     '0.3.10',
+29 silly addNameRange     '0.3.11',
+29 silly addNameRange     '0.3.12',
+29 silly addNameRange     '0.3.13',
+29 silly addNameRange     '0.3.14',
+29 silly addNameRange     '0.3.15',
+29 silly addNameRange     '0.3.16',
+29 silly addNameRange     '0.3.17',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.3.13-a',
+29 silly addNameRange     '0.4.0-a',
+29 silly addNameRange     '0.4.0-rc1',
+29 silly addNameRange     '0.4.0-rc2',
+29 silly addNameRange     '0.4.0-rc3',
+29 silly addNameRange     '0.4.0-rc4',
+29 silly addNameRange     '0.4.0-rc5',
+29 silly addNameRange     '0.4.0-rc6',
+29 silly addNameRange     '0.4.0-rc7',
+29 silly addNameRange     '0.4.0-rc8' ] ]
+30 verbose addNamed [ 'grunt', '0.4.1' ]
+31 verbose addNamed [ '0.4.1', '0.4.1' ]
+32 silly lockFile f9e87dfe-grunt-0-4-1 grunt@0.4.1
+33 verbose lock grunt@0.4.1 /home/adrian/.npm/f9e87dfe-grunt-0-4-1.lock
+34 verbose read json /home/adrian/.npm/grunt/0.4.1/package/package.json
+35 silly lockFile f9e87dfe-grunt-0-4-1 grunt@0.4.1
+36 silly lockFile 55f1ff24-grunt grunt@
+37 silly resolved [ { name: 'grunt',
+37 silly resolved     description: 'The JavaScript Task Runner',
+37 silly resolved     version: '0.4.1',
+37 silly resolved     author: { name: '"Cowboy" Ben Alman', url: 'http://benalman.com/' },
+37 silly resolved     homepage: 'http://gruntjs.com/',
+37 silly resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt.git' },
+37 silly resolved     bugs: { url: 'http://github.com/gruntjs/grunt/issues' },
+37 silly resolved     licenses: [ [Object] ],
+37 silly resolved     main: 'lib/grunt',
+37 silly resolved     scripts: { test: 'grunt test' },
+37 silly resolved     engines: { node: '>= 0.8.0' },
+37 silly resolved     keywords:
+37 silly resolved      [ 'task',
+37 silly resolved        'async',
+37 silly resolved        'cli',
+37 silly resolved        'minify',
+37 silly resolved        'uglify',
+37 silly resolved        'build',
+37 silly resolved        'lodash',
+37 silly resolved        'unit',
+37 silly resolved        'test',
+37 silly resolved        'qunit',
+37 silly resolved        'nodeunit',
+37 silly resolved        'server',
+37 silly resolved        'init',
+37 silly resolved        'scaffold',
+37 silly resolved        'make',
+37 silly resolved        'jake',
+37 silly resolved        'tool' ],
+37 silly resolved     dependencies:
+37 silly resolved      { async: '~0.1.22',
+37 silly resolved        'coffee-script': '~1.3.3',
+37 silly resolved        colors: '~0.6.0-1',
+37 silly resolved        dateformat: '1.0.2-1.2.3',
+37 silly resolved        eventemitter2: '~0.4.9',
+37 silly resolved        'findup-sync': '~0.1.0',
+37 silly resolved        glob: '~3.1.21',
+37 silly resolved        hooker: '~0.2.3',
+37 silly resolved        'iconv-lite': '~0.2.5',
+37 silly resolved        minimatch: '~0.2.6',
+37 silly resolved        nopt: '~1.0.10',
+37 silly resolved        rimraf: '~2.0.2',
+37 silly resolved        lodash: '~0.9.0',
+37 silly resolved        'underscore.string': '~2.2.0rc',
+37 silly resolved        which: '~1.0.5',
+37 silly resolved        'js-yaml': '~2.0.2' },
+37 silly resolved     devDependencies:
+37 silly resolved      { temporary: '~0.0.4',
+37 silly resolved        'grunt-contrib-jshint': '~0.1.1',
+37 silly resolved        'grunt-contrib-nodeunit': '~0.1.2',
+37 silly resolved        'grunt-contrib-watch': '~0.2.0',
+37 silly resolved        difflet: '~0.2.3' },
+37 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+37 silly resolved     readme: '# Grunt: The JavaScript Task Runner [![Build Status](https://secure.travis-ci.org/gruntjs/grunt.png?branch=master)](http://travis-ci.org/gruntjs/grunt)\n\n### Documentation\n\nVisit the [gruntjs.com](http://gruntjs.com/) website for all the things.\n\n### Support / Contributing\nBefore you make an issue, please read our [Contributing](http://gruntjs.com/contributing) guide.\n\nYou can find the grunt team in [#grunt on irc.freenode.net](irc://irc.freenode.net/#grunt).\n\n### Release History\nSee the [CHANGELOG](CHANGELOG).\n',
+37 silly resolved     readmeFilename: 'README.md',
+37 silly resolved     _id: 'grunt@0.4.1',
+37 silly resolved     _from: 'grunt' } ]
+38 info install grunt@0.4.1 into /home/adrian/hackathons/mobilenewsnow/MobileNewsNowViewer
+39 info installOne grunt@0.4.1
+40 error TypeError: Arguments to path.resolve must be strings
+40 error     at Object.exports.resolve (path.js:313:15)
+40 error     at Object.exports.relative (path.js:370:20)
+40 error     at installOne_ (/home/adrian/.node/lib/node_modules/npm/lib/install.js:693:26)
+40 error     at installOne (/home/adrian/.node/lib/node_modules/npm/lib/install.js:621:3)
+40 error     at /home/adrian/.node/lib/node_modules/npm/lib/install.js:508:9
+40 error     at /home/adrian/.node/lib/node_modules/npm/node_modules/slide/lib/async-map.js:54:35
+40 error     at Array.forEach (native)
+40 error     at /home/adrian/.node/lib/node_modules/npm/node_modules/slide/lib/async-map.js:54:11
+40 error     at Array.forEach (native)
+40 error     at asyncMap (/home/adrian/.node/lib/node_modules/npm/node_modules/slide/lib/async-map.js:53:8)
+41 error If you need help, you may report this log at:
+41 error     <http://github.com/isaacs/npm/issues>
+41 error or email it to:
+41 error     <npm-@googlegroups.com>
+42 error System Linux 3.2.0-55-generic
+43 error command "node" "/home/adrian/.node/bin/npm" "install" "grunt"
+44 error cwd /home/adrian/hackathons/mobilenewsnow/MobileNewsNowViewer
+45 error node -v v0.10.21
+46 error npm -v 1.1.68
+47 verbose exit [ 1, true ]
