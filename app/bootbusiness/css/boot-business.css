@@ -20,9 +20,16 @@ width: 100%;
 margin-bottom: 10px;
 padding-bottom: 0px !important;
 }
-.thumbnail iframe {
-  width: 100%;
+@media (max-width: 800px) {
+    iframe {
+        width: 100%;
+    }
+    .main-video iframe {
+        width: 100%;
+        height: 250px;
+    }
 }
+
 body {
 background: url('../img/content.png');
 padding: 0px;
